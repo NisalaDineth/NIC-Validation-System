@@ -1,0 +1,67 @@
+.file-records-viewer {
+  background: #f9faff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(79, 140, 255, 0.08);
+  padding: 20px;
+  margin-bottom: 24px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.file-records-viewer h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.file-records-viewer select {
+  margin-bottom: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #c9c9c9;
+  font-size: 1rem;
+}
+
+.records-table-wrapper {
+  overflow-x: auto;
+}
+
+.file-records-viewer table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.file-records-viewer th, .file-records-viewer td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.file-records-viewer th {
+  background: #f0f7ff;
+  font-weight: 700;
+}
+
+.file-records-viewer tr:last-child td {
+  border-bottom: none;
+}
+
+.error {
+  color: #d7263d;
+  background: #fff3f4;
+  border-left: 4px solid #d7263d;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.98rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .file-records-viewer {
+    padding: 8px;
+  }
+  .file-records-viewer table, .file-records-viewer th, .file-records-viewer td {
+    font-size: 0.98rem;
+  }
+}

@@ -1,0 +1,11 @@
+license_no,driver_name,driver_nic,vehicle_type,issue_date,expiry_date
+DL001,Chaminda Perera,910234567V,Car,2022-05-10,2027-05-10
+DL002,Hemali Silva,200134567890,Motorcycle,2023-02-15,2028-02-15
+DL003,Indika Fernando,890567890V,Truck,2021-11-20,2026-11-20
+DL004,Janitha Rajapaksa,200243567123,Car,2022-08-05,2027-08-05
+DL005,Kumari Mendis,960789012V,Bus,2020-12-12,2025-12-12
+DL006,Lasantha Jayawardena,200352468135,Motorcycle,2023-06-18,2028-06-18
+DL007,Malinda Kularatne,830123789V,Car,2021-09-30,2026-09-30
+DL008,Nadeesha Gunasekara,200461579246,Truck,2022-03-25,2027-03-25
+DL009,Oshadha Bandara,970345612V,Car,2023-01-08,2028-01-08
+DL010,Prasanna Dissanayake,200570680357,Bus,2021-07-14,2026-07-14

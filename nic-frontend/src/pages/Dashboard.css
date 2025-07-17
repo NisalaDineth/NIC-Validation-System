@@ -1,0 +1,141 @@
+.dashboard-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #4f8cff;
+}
+
+.logout-button {
+  background-color: #d7263d;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.logout-button:hover {
+  background-color: #b31b2a;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.tab-buttons button {
+  padding: 10px 28px;
+  background: #f0f3ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #4f8cff;
+  transition: background 0.3s ease;
+}
+
+.tab-buttons button.active,
+.tab-buttons button:hover {
+  background: linear-gradient(90deg, #4f8cff 40%, #38b6ff 100%);
+  color: white;
+  box-shadow: 0 6px 14px rgb(79 140 255 / 0.7);
+}
+
+.line {
+  width: 100%;
+  height: 1.5px;
+  background: #e0e0e0;
+  margin: 16px 0;
+}
+
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Center the CSV uploader container */
+.upload-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* Stats cards grid */
+.stats-section .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.card {
+  background-color: #f9faff;
+  border-radius: 12px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #4f8cff;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(79, 140, 255, 0.1);
+}
+
+/* Charts grid */
+.charts-section .charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: auto;
+  margin-bottom: 24px;
+}
+
+.chart {
+  justify-self: center;
+}
+
+
+/* Sections styling */
+.files-list-section,
+.records-viewer-section {
+  border-radius: 12px;
+  padding: 16px;
+}
+
+/* Error message */
+.error {
+  color: #d7263d;
+  background: #fff3f4;
+  border-left: 4px solid #d7263d;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.98rem;
+  margin-bottom: 16px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .tab-buttons {
+    flex-wrap: wrap;
+  }
+  .stats-section .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .charts-section .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}

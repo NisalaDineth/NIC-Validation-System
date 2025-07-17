@@ -1,0 +1,11 @@
+patient_id,patient_name,nic,ward,admission_date,doctor_assigned
+P001,Sunil Rathnayake,920123456V,General,2024-01-15,Dr. Perera
+P002,Kamani Dissanayake,200087654321,ICU,2024-01-16,Dr. Silva
+P003,Gayan Nanayakkara,880765432V,Cardiology,2024-01-17,Dr. Fernando
+P004,Sandya Wickramasinghe,200198765123,Pediatrics,2024-01-18,Dr. Rajapaksa
+P005,Mahesh Gunawardena,950234567V,Orthopedic,2024-01-19,Dr. Mendis
+P006,Nimali Herath,200287654234,Neurology,2024-01-20,Dr. Jayawardena
+P007,Piyal Samaraweera,870345678V,General,2024-01-21,Dr. Kularatne
+P008,Ruwani Bandara,200376543345,Surgery,2024-01-22,Dr. Gunasekara
+P009,Thushara Wijesuriya,940456789V,Emergency,2024-01-23,Dr. Pathirana
+P010,Vasantha Rodrigo,200465432456,Maternity,2024-01-24,Dr. Tennakoon

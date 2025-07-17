@@ -1,0 +1,11 @@
+policy_no,holder_name,nic_holder,policy_type,premium_amount,start_date
+INS001,Achala Perera,940123678V,Life,25000,2023-01-01
+INS002,Bimal Silva,200167890234,Health,18000,2023-02-15
+INS003,Chathura Fernando,870234789V,Vehicle,12000,2023-03-10
+INS004,Dinuka Rajapaksa,200278901345,Property,35000,2023-04-20
+INS005,Eranga Mendis,950345012V,Life,22000,2023-05-05
+INS006,Fathima Jayawardena,200389012456,Health,20000,2023-06-12
+INS007,Gamini Kularatne,880456345V,Vehicle,15000,2023-07-18
+INS008,Hashini Gunasekara,200490123567,Property,28000,2023-08-25
+INS009,Iresh Bandara,960567678V,Life,30000,2023-09-30
+INS010,Janani Dissanayake,200591234678,Health,16000,2023-10-15

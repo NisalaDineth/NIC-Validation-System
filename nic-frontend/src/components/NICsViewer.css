@@ -1,0 +1,122 @@
+.nics-viewer {
+  background: #f9faff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(79, 140, 255, 0.08);
+  padding: 20px;
+  margin-bottom: 24px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.nics-viewer h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 18px;
+  align-items: flex-end;
+}
+
+.filters > div {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  gap: 6px;
+}
+
+.filters label {
+  font-weight: 500;
+  color: #1a5fcc;
+}
+
+.filters input,
+.filters select {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #c9c9c9;
+  font-size: 1rem;
+}
+
+.filters .select-box {
+  min-width: 180px;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.export-buttons button,
+.filters button {
+  background: linear-gradient(90deg, #4f8cff 40%, #38b6ff 100%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 8px 18px;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.09);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.export-buttons button:hover,
+.filters button:hover {
+  background: linear-gradient(90deg, #38b6ff 40%, #4f8cff 100%);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.nics-table-wrapper {
+  overflow-x: auto;
+}
+
+.nics-viewer table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.nics-viewer th, .nics-viewer td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.nics-viewer th {
+  background: #f0f7ff;
+  font-weight: 700;
+}
+
+.nics-viewer tr:last-child td {
+  border-bottom: none;
+}
+
+.error {
+  color: #d7263d;
+  background: #fff3f4;
+  border-left: 4px solid #d7263d;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.98rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+  .nics-viewer {
+    padding: 8px;
+  }
+  .nics-viewer table, .nics-viewer th, .nics-viewer td {
+    font-size: 0.98rem;
+  }
+}

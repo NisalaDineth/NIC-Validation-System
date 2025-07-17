@@ -1,0 +1,11 @@
+voter_id,voter_name,citizen_nic,district,polling_station,registered_date
+V001,Quintus Wickrama,920456789V,Colombo,PS001,2020-03-15
+V002,Rashika Silva,200145678901,Kandy,PS002,2021-07-22
+V003,Sachini Fernando,890123567V,Galle,PS003,2019-11-30
+V004,Tharanga Rajapaksa,200254679012,Matara,PS004,2020-08-18
+V005,Udara Mendis,960789345V,Negombo,PS005,2021-02-10
+V006,Vindya Jayawardena,200363780123,Kurunegala,PS006,2022-05-05
+V007,Wasantha Kularatne,850234891V,Anuradhapura,PS007,2019-09-12
+V008,Xamini Gunasekara,200472891234,Badulla,PS008,2020-12-28
+V009,Yasas Bandara,930567234V,Ratnapura,PS009,2021-06-16
+V010,Zenna Dissanayake,200581902345,Jaffna,PS010,2022-01-20

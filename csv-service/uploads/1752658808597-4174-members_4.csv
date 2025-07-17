@@ -1,0 +1,11 @@
+member_id,member_name,national_nic,membership_type,join_date,contact_email
+M001,Pathum Wijeratne,980052146V,Premium,2023-01-10,pathum@email.com
+M002,Shanika Gunathilaka,920345678V,Standard,2022-11-15,shanika@email.com
+M003,Ravindu Silva,870987654V,Premium,2023-03-22,ravindu@email.com
+M004,Madhavi Abeysekara,200123789456,Gold,2022-08-30,madhavi@email.com
+M005,Thilina Wickrama,940876543V,Standard,2023-02-14,thilina@email.com
+M006,Samanthi Rathnayake,200234567123,Premium,2022-12-05,samanthi@email.com
+M007,Duminda Rajapaksa,850321987V,Gold,2023-04-18,duminda@email.com
+M008,Priyani Kodikara,200345678234,Standard,2022-10-08,priyani@email.com
+M009,Ajith Kumara,930654987V,Premium,2023-01-25,ajith@email.com
+M010,Neluka Amarasinghe,200456789345,Gold,2022-09-12,neluka@email.com
